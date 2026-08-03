@@ -1,0 +1,51 @@
+:root {
+  color-scheme: light;
+  font-family: 'PingFang SC', 'Microsoft YaHei', Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  color: #111827;
+  background: #f3f6fb;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  min-width: 1280px;
+  background:
+    radial-gradient(circle at top left, rgba(35, 99, 255, 0.08), transparent 26%),
+    linear-gradient(180deg, #f7f9fd 0%, #eef3f9 100%);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.page-card {
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid rgba(207, 216, 230, 0.85);
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(12, 28, 64, 0.06);
+}
+
+.section-title {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.section-subtitle {
+  margin: 8px 0 0;
+  font-size: 13px;
+  color: #64748b;
+  line-height: 1.7;
+}
